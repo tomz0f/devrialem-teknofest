@@ -1,0 +1,43 @@
+{
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "export": "npm run build && next export"
+  },
+  "browser": {
+    "fs": "empty",
+    "path": false,
+    "os": false
+  },
+  "dependencies": {
+    "@pdf-lib/fontkit": "^1.1.1",
+    "antd": "^4.17.1",
+    "bson": "^4.5.4",
+    "chart.js": "^3.8.2",
+    "date-fns": "^2.25.0",
+    "dotenv": "^16.0.0",
+    "mongodb": "^3.5.9",
+    "mongodb-core": "^3.2.7",
+    "mongoose": "^6.3.1",
+    "next": "latest",
+    "next-auth": "^0.0.0-pr.3217.87a21677",
+    "next-qrcode": "^0.0.0",
+    "pdf-lib": "^1.17.1",
+    "qrcode": "^1.5.0",
+    "react": "^17.0.2",
+    "react-chartjs-2": "^4.3.1",
+    "react-datepicker": "^4.3.0",
+    "react-dom": "^17.0.2",
+    "react-qr-reader": "^3.0.0-beta-1",
+    "source-map-js": "^1.0.1",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.0",
+    "postcss": "^8.3.11",
+    "tailwindcss": "^2.2.19"
+  },
+  "license": "Apache-2.0"
+}

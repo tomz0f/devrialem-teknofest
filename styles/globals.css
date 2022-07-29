@@ -1,0 +1,96 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap'); */
+
+/* base styles */
+:root {
+  --primary: #166ae8;
+}
+
+body {
+  /* padding: 0; */
+  /* margin: 0 20px; */
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 600;
+  /* color: #444; */
+  /* background: #f2f2f2; */
+}
+/* a {
+  color: inherit;
+  text-decoration: none;
+} */
+/* .container {
+  max-width: 960px;
+  margin: 0 auto;
+} */
+
+/* navbar */
+/* nav {
+  margin: 20px auto 20px;
+  display: flex;
+  align-items: center;
+}
+nav h1 {
+  margin-left: 20px;
+}
+nav ul {
+  margin-left: auto;
+  list-style-type: none;
+  padding: 0;
+}
+nav li {
+  display: inline-block;
+  margin-left: 16px;
+}
+nav li.btn {
+  padding: 10px 16px;
+  border: 2px solid var(--primary);
+  border-radius: 30px;
+  font-weight: 600;
+  color: var(--primary);
+  cursor: pointer;
+}
+nav li.btn:hover {
+  color: white;
+  background: var(--primary);
+} */
+
+
+
+@font-face {
+  font-family: 'Quicksand';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: local('Quicksand'), url(/fonts/Quicksand/Quicksand-Light.ttf);
+}
+
+@font-face {
+  font-family: 'Quicksand';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Quicksand'), url(/fonts/Quicksand/Quicksand-Regular.ttf);
+}
+
+@font-face {
+  font-family: 'Quicksand';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: local('Quicksand'), url(/fonts/Quicksand/Quicksand-Medium.ttf);
+}
+
+@font-face {
+  font-family: 'Quicksand';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: local('Quicksand'), url(/fonts/Quicksand/Quicksand-SemiBold.ttf);
+}
+
+@font-face {
+  font-family: 'Quicksand';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: local('Quicksand'), url(/fonts/Quicksand/Quicksand-Bold.ttf);
+}
