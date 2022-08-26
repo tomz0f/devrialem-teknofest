@@ -20,7 +20,7 @@
     "dotenv": "^16.0.0",
     "mongodb": "^3.5.9",
     "mongodb-core": "^3.2.7",
-    "mongoose": "^6.3.1",
+    "mongoose": "^6.4.6",
     "next": "latest",
     "next-auth": "^0.0.0-pr.3217.87a21677",
     "next-qrcode": "^0.0.0",
